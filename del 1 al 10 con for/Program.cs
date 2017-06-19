@@ -11,14 +11,12 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             int i;
-            i = Convert.ToInt32(Console.ReadLine());
-
           
             for(i=1; i<=10; i++)
             {
-                Console.WriteLine(i);
-                Console.ReadKey();
+                Console.WriteLine(i);                
             }
+            Console.ReadKey();
         }
     }
 }
